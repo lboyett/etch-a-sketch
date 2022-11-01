@@ -1,0 +1,19 @@
+.gridContainer {
+    display: grid;
+    /*grid-template-columns: repeat(4, 1fr);*/
+}
+
+body {
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+}
+
+.gridSquare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+
+}
