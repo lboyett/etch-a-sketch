@@ -1,19 +1,32 @@
-.gridContainer {
-    display: grid;
-    /*grid-template-columns: repeat(4, 1fr);*/
-}
-
+/* Entire Body */
 body {
     border: 1px solid green;
     display: flex;
     justify-content: center;
 }
 
+/* Body Content Div */
+.bodyContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Prompt Button */
+.button {
+    margin: 0 25%;
+}
+
+/* Body Content Div */
+.gridContainer {
+    display: grid;
+}
+
+/* Grid Squares */
 .gridSquare {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100px;
     height: 100px;
-
 }
