@@ -20,6 +20,8 @@ body {
 /* Body Content Div */
 .gridContainer {
     display: grid;
+    width: 500px;
+    height: 500px;
 }
 
 /* Grid Squares */
@@ -27,6 +29,4 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
 }
